@@ -1,0 +1,75 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/software/jetbrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include",
+						"D:/software/jetbrains/CLion/bin/mingw/include",
+						"D:/software/jetbrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed",
+						"D:/software/jetbrains/CLion/bin/mingw/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"D:/software/jetbrains/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0",
+						"D:/software/jetbrains/CLion/bin/mingw/lib/gcc",
+						"D:/software/jetbrains/CLion/bin/mingw/x86_64-w64-mingw32/lib",
+						"D:/software/jetbrains/CLion/bin/mingw/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"iconv",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "D:/software/jetbrains/CLion/bin/mingw/bin/gcc.exe",
+				"version" : "13.1.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/software/jetbrains/CLion/bin/mingw/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
